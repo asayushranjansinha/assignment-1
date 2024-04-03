@@ -15,7 +15,7 @@ export default function LandingPageLayout({
     <html lang="en">
       <body>
         <LandingPageHeader />
-        {children}
+        <main className="mt-20">{children}</main>
       </body>
     </html>
   );
