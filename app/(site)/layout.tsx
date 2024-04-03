@@ -2,7 +2,7 @@ import LandingPageHeader from "@/components/landing-page/header";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Shopify",
+  title: "sankyfy",
   description: "",
 };
 
