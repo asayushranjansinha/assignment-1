@@ -16,7 +16,7 @@ const Footer = () => {
           </div>
         </div>
         <hr />
-        <div className="flex justify-between items-center my-2 text-muted-foreground">
+        <div className="flex flex-col lg:flex-row items-start lg:items-center justify-center lg:justify-between gap-4 my-2 text-muted-foreground">
           <Link href={"tel:000000000"} className="flex items-center gap-2">
             <Image
               src={"/mobile.png"}
