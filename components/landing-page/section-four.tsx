@@ -6,7 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 const SectionFour = () => {
   return (
-    <section className="container mx-auto px-[1rem] sm:px-[2rem] grid lg:grid-cols-2 gap-4 pb-8">
+    <section className="container mx-auto px-[1rem] sm:px-[2rem] grid lg:grid-cols-2 gap-4">
           <div className="flex flex-col">
             <h3 className="text-center lg:text-left text-2xl font-medium text-amber-600 dark:text-amber-400">
               Contact Us
