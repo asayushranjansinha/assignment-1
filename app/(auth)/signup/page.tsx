@@ -15,7 +15,7 @@ export default function LoginForm() {
   return (
     <Card className="mx-auto max-w-sm">
       <CardHeader>
-        <CardTitle className="text-xl">Sign Up</CardTitle>
+      <CardTitle className="text-2xl text-center text-primary">sankyfy.com</CardTitle>
         <CardDescription>
           Sign Up Here
         </CardDescription>
