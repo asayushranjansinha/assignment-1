@@ -139,7 +139,9 @@ const Header: React.FC = () => {
         </NavigationMenu>
         <div className="flex items-center gap-4 justify-end">
           <ModeToggle />
-          <Button>Login</Button>
+          <Button asChild>
+            <Link href={"/login"}>Login</Link>
+          </Button>
         </div>
       </div>
     </header>
